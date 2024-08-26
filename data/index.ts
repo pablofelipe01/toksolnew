@@ -19,8 +19,7 @@ export const gridItems = [
   },
   {
     id: 2,
-    title:
-      "Somos muy flexibles con los horarios de comunicación. Nos adaptamos a tu zona horaria",
+    title: "Nos adaptamos a tu zona horaria",
     description: "",
     className: "lg:col-span-2 md:col-span-3 md:row-span-2",
     imgClassName: "",
@@ -30,8 +29,8 @@ export const gridItems = [
   },
   {
     id: 3,
-    title: "Nuestro stack tecnológico",
-    description: "Constantemente tratamos de mejorar",
+    title: "Nuestra tecnolgía",
+    description: "Constantemente mejoramos",
     className: "lg:col-span-2 md:col-span-3 md:row-span-2",
     imgClassName: "",
     titleClassName: "justify-center",
