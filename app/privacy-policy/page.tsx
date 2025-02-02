@@ -217,7 +217,7 @@ const PrivacyPolicy: NextPage = () => {
                 <p className="text-gray-700">Atención: Pablo Acebedo</p>
                 <p className="text-gray-700">Email: pablofelipe@mac.com</p>
                 <p className="text-gray-700">Teléfono: +57 320 473 5546</p>
-                <p className="text-gray-700">Delegado de Protección de Datos: dpo@toksoldao.com</p>
+                <p className="text-gray-700">Delegado de Protección de Datos: pablo@siriusregenerative.com</p>
               </div>
             </section>
 
