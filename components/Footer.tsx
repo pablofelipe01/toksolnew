@@ -1,6 +1,7 @@
 import { FaLocationArrow } from "react-icons/fa6";
 import { socialMedia } from "@/data";
 import MagicButton from "./MagicButton";
+import Link from "next/link";
 
 const Footer = () => {
   return (
@@ -24,9 +25,17 @@ const Footer = () => {
         </a>
       </div>
       <div className="flex mt-16 md:flex-row flex-col justify-between items-center">
-        <p className="md:text-base text-sm md:font-normal font-light">
-          Copyright © Tok_Sol DAO
-        </p>
+        <div className="flex flex-col md:flex-row items-center gap-2 md:gap-4">
+          <p className="md:text-base text-sm md:font-normal font-light">
+            Copyright © Tok_Sol DAO
+          </p>
+          <Link 
+            href="/privacy-policy" 
+            className="text-sm text-white-200 hover:text-purple transition-colors duration-300"
+          >
+            Política de Privacidad
+          </Link>
+        </div>
 
         <div className="flex items-center md:gap-3 gap-6">
           {socialMedia.map((info) => (
