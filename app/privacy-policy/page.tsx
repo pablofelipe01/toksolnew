@@ -1,5 +1,6 @@
 import type { NextPage } from 'next'
 import Head from 'next/head'
+import Link from "next/link";
 
 const PrivacyPolicy: NextPage = () => {
   return (
@@ -229,6 +230,13 @@ const PrivacyPolicy: NextPage = () => {
                 en cualquier momento, aunque esto puede afectar nuestra capacidad para proporcionarle 
                 ciertos servicios.
               </p>
+              <div>
+              <Link 
+            href="/" 
+            className="text-sm text-white-200 hover:text-purple transition-colors duration-300"
+          >
+Back To Home          </Link>
+              </div>
             </section>
           </div>
         </article>
