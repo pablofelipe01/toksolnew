@@ -22,11 +22,11 @@ const PrivacyPolicy: NextPage = () => {
             <section className="mb-8">
               <h2 className="text-2xl font-semibold mb-4 text-gray-800">1. Introducción</h2>
               <p className="text-gray-700 mb-4">
-                Tok Sol Dao, representada por Pablo Acevedo ("nosotros", "nuestro", o "la empresa"), 
+                Tok Sol Dao, representada por Pablo Acevedo (`nosotros`, `nuestro`, o `la empresa`), 
                 se compromete a proteger la privacidad de nuestros usuarios. Esta Política de Privacidad 
                 describe cómo recopilamos, usamos, almacenamos y protegemos su información cuando utiliza 
                 nuestros servicios, incluyendo nuestras aplicaciones móviles, sitios web, integraciones con Meta 
-                y servicios relacionados ("Servicios").
+                y servicios relacionados (`Servicios`).
               </p>
             </section>
 
@@ -214,7 +214,7 @@ const PrivacyPolicy: NextPage = () => {
               </p>
               <div className="bg-gray-50 p-4 rounded-lg">
                 <p className="text-gray-700">Tok Sol Dao</p>
-                <p className="text-gray-700">Atención: Pablo Acevedo</p>
+                <p className="text-gray-700">Atención: Pablo Acebedo</p>
                 <p className="text-gray-700">Email: pablofelipe@mac.com</p>
                 <p className="text-gray-700">Teléfono: +57 320 473 5546</p>
                 <p className="text-gray-700">Delegado de Protección de Datos: dpo@toksoldao.com</p>
