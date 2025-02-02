@@ -4,6 +4,20 @@ import MagicButton from "./MagicButton";
 import Link from "next/link";
 
 const Footer = () => {
+  const emailParams = {
+    recipient: "pablofelipe@me.com",
+    subject: "Consulta sobre servicios de automatización",
+    body: `Hola Pablo,
+
+Me gustaría obtener más información sobre los servicios de automatización de Tok_Sol DAO.
+
+Por favor, contáctame para discutir cómo pueden ayudar a mi negocio.
+
+Saludos cordiales,`
+  };
+
+  const mailtoLink = `mailto:${emailParams.recipient}?subject=${encodeURIComponent(emailParams.subject)}&body=${encodeURIComponent(emailParams.body)}`;
+
   return (
     <footer className="w-full pt-20 pb-10" id="contact">
       <div className="flex flex-col items-center">
@@ -16,7 +30,7 @@ const Footer = () => {
           tus objetivos.
         </p>
 
-        <a href="mailto:pablofelipe@me.com">
+        <a href={mailtoLink}>
           <MagicButton
             title="Let's get in touch"
             icon={<FaLocationArrow />}
